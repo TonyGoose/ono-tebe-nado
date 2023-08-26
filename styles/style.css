@@ -331,7 +331,7 @@
   display: grid;
   align-self: start;
   grid-template-columns: repeat(3, 1fr);
-  padding: 94px 50px 90px 50px;
+  padding: 90px 50px 90px 50px;
   text-underline-position: under;
 }
 
