@@ -41,7 +41,7 @@
 
 /* шрифты хедера и футера */
 .link__list_fonts {
-  font-family: Raleway;
+  font-family: "Raleway", serif;
   font-size: 18px;
   font-style: normal;
   font-weight: 400;
@@ -55,10 +55,11 @@
 
 /* вся секция с изображением */
 .cover {
+  display: grid;
   width: 100%;
   background-image: url(../images/cover.jpg);
   background-size: cover;
-  background-position:center;
+  background-position: center;
   z-index: 1;
   position: relative;
 }
@@ -120,23 +121,23 @@
   display: flex;
   gap: 80px;
   color: #fcfcfc;
-  font-family: Raleway;
+  font-family: "Raleway", serif;
   font-size: 22px;
   font-style: normal;
   font-weight: 400;
   line-height: 28px;
   text-align: center;
-  padding: 110px 0 50px 99px;
+  padding: 110px 50px 50px 99px;
 }
-
 
 /* текст подзаголовка */
 .cover__description__text {
   display: flex;
-  padding:30px 0 10px 323px ;
+  padding:30px 0 10px 0px;
+  margin-left: auto;
   z-index: 1;
   color: #fff;
-  font-family: Raleway;
+  font-family: "Raleway", serif;
   font-size: 22px;
   font-style: normal;
   font-weight: 400;
@@ -146,6 +147,7 @@
   justify-content: center;
 }
 
+/* кнопка сделать ставку */
 .cover__description__button {
   border: 1px solid #fff;
   z-index: 1;
@@ -154,7 +156,7 @@
   background-color: transparent;
   color: #fff;
   text-align: center;
-  font-family: Raleway;
+  font-family: "Raleway", serif;
   font-size: 22px;
   font-style: normal;
   font-weight: 400;
@@ -173,7 +175,7 @@
   display: flex;
   flex-direction: row;
   color: #000;
-  font-family: Raleway;
+  font-family: "Raleway", serif;
   font-size: 40px;
   font-style: normal;
   font-weight: 700;
@@ -237,19 +239,20 @@
 /* ссылка «Посмотреть больше» */
 .lots__look-more-link {
   color: #000;
-  font-family: Raleway;
+  font-family: "Raleway", serif;
   font-size: 20px;
   font-style: normal;
   font-weight: 400;
   line-height: normal;
   display: inline-block;
   margin:32px 0 0 40px;
+  text-underline-position: under;
 }
 
 /* заголовок карточки */
 .card__title {
   color: #fff;
-  font-family: Raleway;
+  font-family: "Raleway", serif;
   font-size: 22px;
   font-style: normal;
   font-weight: 700;
@@ -263,7 +266,7 @@
 /* текст карточки */
 .card__text {
   color: #fff;
-  font-family: Raleway;
+  font-family: "Raleway", serif;
   font-size: 20px;
   font-style: normal;
   font-weight: 400;
@@ -286,8 +289,8 @@
 /*  изображение логотипа */
 .about__logo {
   background-color: #000000;
-  max-height: 240px;
-  max-width: 240px;
+  height: 240px;
+  width: 240px;
   border-radius: 50%;
   padding: 63px 46px;
   margin-left: 95px;
@@ -298,7 +301,7 @@
   padding-top: 100px;
   padding-bottom: 73px;
   color: #000;
-  font-family: Raleway;
+  font-family: "Raleway", serif;
   font-size: 40px;
   font-style: normal;
   font-weight: 700;
@@ -319,11 +322,11 @@
   flex-direction: column;
   gap: 27px;
   color: #000;
-  font-family: Raleway;
+  font-family: "Raleway", serif;
   font-size: 20px;
   font-style: normal;
   font-weight: 400;
-  line-height: normal;;
+  line-height: normal;
 }
 
 /*  подвал */
@@ -356,7 +359,6 @@
   align-self: start;
   justify-self: end;
   gap: 46px;
-  max-width: 241px;
 }
 
 /* иконка социальной сети */
